@@ -1,0 +1,19 @@
+{
+      "name": "mcp-server-sdk",
+      "version": "1.0.0",
+      "description": "MCP Server with Python SDK",
+      "main": "server.js",
+      "scripts": {
+        "dev": "vite",
+        "start": "node server.js"
+      },
+      "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "node-fetch": "^3.3.2",
+        "python-sdk": "latest"
+      },
+      "devDependencies": {
+        "dotenv": "^16.4.1"
+      }
+    }
